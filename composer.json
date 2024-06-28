@@ -1,0 +1,23 @@
+{
+	"name":"bomber-net/process",
+	"type":"library",
+	"license":"MIT",
+	"minimum-stability":"dev",
+	"version":"0.0.0",
+	"require":{
+		"php":">=8.2",
+		"ext-pcntl":"*",
+		"ext-sync":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"BomberNet\\Process\\":"src/"
+		}
+	},
+	"authors":[
+		{
+			"name":"bomber-net",
+			"email":"bomber-net@mail.ru"
+		}
+	]
+}
